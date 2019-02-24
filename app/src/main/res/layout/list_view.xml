@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/book_cover_image_view"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:src="@mipmap/book_cover_image_view"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+    <TextView
+        android:id="@+id/book_title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:text="@string/title_text"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:gravity="start"
+        android:ellipsize="end"/>
+
+    <TextView
+        android:id="@+id/book_author_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:text="@string/author_text"
+        android:textSize="20sp"
+        android:gravity="start"
+        android:ellipsize="end"/>
+
+    <TextView
+        android:id="@+id/book_year_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:text="@string/release_date_text"
+        android:textSize="16sp"
+        android:gravity="start"
+        android:ellipsize="end"/>
+
+    </LinearLayout>
+
+</LinearLayout>

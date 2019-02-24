@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    tools:context="com.mrmikeonabike.myapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/biographies"
+        style="@style/CategoryStyle"
+        android:background="@color/category_biographies"
+        android:text="@string/biographies_text"/>
+
+    <TextView
+        android:id="@+id/classics"
+        style="@style/CategoryStyle"
+        android:background="@color/category_classics"
+        android:text="@string/classics_text"/>
+
+    <TextView
+        android:id="@+id/romance"
+        style="@style/CategoryStyle"
+        android:background="@color/category_romance"
+        android:text="@string/romance_text"/>
+
+    <TextView
+        android:id="@+id/sci_fi"
+        style="@style/CategoryStyle"
+        android:background="@color/category_sci_fi"
+        android:text="@string/science_fiction_text"/>
+
+    <TextView
+        android:id="@+id/technology"
+        style="@style/CategoryStyle"
+        android:background="@color/category_technology"
+        android:text="@string/science_technology_text"/>
+
+    <TextView
+        android:id="@+id/travel"
+        style="@style/CategoryStyle"
+        android:background="@color/category_travel"
+        android:text="@string/travel_adventure_text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/nowPlaying"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/now_playing_text"
+            android:textColor="@android:color/white"
+            android:layout_margin="16dp"
+            android:textSize="30sp"
+            android:background="@color/primary_dark_color" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/now_playing_text"
+        android:textSize="40sp"
+        android:textColor="@color/primary_dark_color"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:srcCompat="@drawable/sci_fi_book_2" />
+
+    <ImageView
+        android:id="@+id/controlsView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/player_controls" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/backToLibrary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/library"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:layout_margin="16dp"
+            android:background="@color/primary_dark_color" />
+
+    </LinearLayout>
+
+</LinearLayout>

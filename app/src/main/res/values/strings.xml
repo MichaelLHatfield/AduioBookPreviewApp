@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Audio Book Preview</string>
+    <string name="biographies_text">Biographies</string>
+    <string name="classics_text">Classics</string>
+    <string name="romance_text">Romance</string>
+    <string name="science_fiction_text">Science Fiction</string>
+    <string name="science_technology_text">Science and Technology</string>
+    <string name="travel_adventure_text">Travel and Adventure</string>
+    <string name="title_text">Extinction</string>
+    <string name="author_text">B.V. Larson</string>
+    <string name="release_date_text">2011</string>
+    <string name="list_heading">AudioBook Library:</string>
+    <string name="now_playing_text">Now Playing</string>
+    <string name="now_playing">Now Playing:</string>
+    <string name="library">Back to Library</string>
+    <string name="summary_and_ratings">Summary and Ratings...</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/summary_and_ratings"
+        android:textSize="28sp"
+        android:textColor="@color/primary_dark_color"
+        android:layout_margin="6dp"
+        android:gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:text="A teenager’s experience with the perils of social media force her to make some difficult decisions. Skye Matthews, a white teen who struggles with her body image and aspires to enter politics, lives with her mom and younger sister. Her father doesn’t pay child support, and Skye works at a tedious retail job. Her two best friends are Asha, a bold and daring half-Irish, half-Indian American girl from a wealthy family, and Emma, a beautiful, warmhearted blonde girl who is an avid movie buff and also financially more comfortable than Skye. At Asha’s birthday celebration—with just the three friends together, as always—she receives a slinky piece of lingerie as a jokey gift from Emma. To lighten the mood when Asha wants Emma to wear it but she demurs, Skye volunteers to put it on. To Skye’s horror, Asha livestreams her catwalking in the lingerie on a popular social media network. Before the video is deleted, someone saves a screenshot and uses it to blackmail her."/>
+
+        <Button
+            android:id="@+id/backToLibrary2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/library"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:layout_margin="16dp"
+            android:background="@color/primary_dark_color" />
+    </LinearLayout>
+
+</LinearLayout>
